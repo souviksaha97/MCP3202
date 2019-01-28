@@ -11,8 +11,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  channel1 = readChannel(0);
-  channel2 = readChannel(1);
+  channel1 = adc.readChannel(0);
+  channel2 = adc.readChannel(1);
   Serial.print(channel1);
   Serial.print("\t");
   Serial.println(channel2);
