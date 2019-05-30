@@ -6,14 +6,14 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-MCP3202		KEYWORD1
+MCP3202	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-begin		KEYWORD2
-readChannel KEYWORD2
+begin	KEYWORD2
+readChannel	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
