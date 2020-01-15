@@ -1,4 +1,14 @@
 #include <MCP3202.h>
+
+//D13 - CK
+//D12 - DOUT
+//D11 - DIN
+//D10 - CS
+
+// You can also refer to this website!
+// Thanks to baturman for making this schematic.
+// https://easyeda.com/baturman/arduino-uno-r3-mcp3202-wiring-diagram
+
 MCP3202 adc = MCP3202(10);
 
 int channel1 = 0;
